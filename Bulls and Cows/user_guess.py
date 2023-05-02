@@ -39,7 +39,6 @@ def main():
         answer = random.randint(0, 10000)
         if unique_digits(answer) == True :
             break
-    print(answer)
 
     while True:
         print(f"\n\t{number+1}번째, 추측한 수 입력")
