@@ -18,12 +18,10 @@ def main():
                     a[i][j][k][l] = i * 1000 + j * 100 + k * 10 + l
                     if i == j or i == k or i == l or j == k or j == l or k == l:
                         a[i][j][k][l] = -1
-    print("\t*중복되는숫자XX 맨첫자리 0가능*\n")
+    print("\n\n\t*중복되는숫자XX 맨첫자리 0가능*\n")
 
     while True:
-        print(f"\n남은 경우의수 : {count}\n")
-        print(f"\n\t{number+1}번째, 흠... 추측해보겠습니다!")
-        print("가능한 수가 없을때는, 무한루프가 생성됩니다.\n")
+        print(f"\n\t***남은 경우의수 : {count}***\n")
         while True:
             b = random.randint(0, 9)
             c = random.randint(0, 9)
@@ -33,7 +31,7 @@ def main():
                 break
         if b == 0:
             print("0", end='')
-        print(a[b][c][d][e])
+        print(f"\n\t{number+1}번째 추측 : " + str(a[b][c][d][e]))
         print("\n\nStrike, Ball\n ")
         strike, ball = map(int, input().split())
         a[b][c][d][e] = 0	
