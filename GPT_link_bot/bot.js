@@ -25,7 +25,8 @@ function getGPTResponse(prompt, previous_request, previous_response) {
       .ignoreContentType(true)
       .timeout(500000)
       .requestBody(JSON.stringify({
-        model: "gpt-3.5-turbo",
+        //model: "gpt-3.5-turbo",
+        model: "gpt-4",
         messages: message,
         max_tokens: 300,
         temperature: 0.5,
