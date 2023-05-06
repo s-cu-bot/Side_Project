@@ -19,8 +19,7 @@ https://namu.wiki/w/%EC%88%AB%EC%9E%90%EC%95%BC%EA%B5%AC
 
 ![image](https://user-images.githubusercontent.com/112623443/235576497-42d5415c-cd9d-4751-80ab-3104a31070d1.png)
 
-<->
-
+------
 
 - **(2) computer_guess.py** => 추측한 숫자 (4자리) 작성
 
