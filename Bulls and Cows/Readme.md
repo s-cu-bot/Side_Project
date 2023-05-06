@@ -15,6 +15,9 @@ https://namu.wiki/w/%EC%88%AB%EC%9E%90%EC%95%BC%EA%B5%AC
 
  ------
 **[입력 형태]** (변경 예정)
+
+ ------
+
 - **(1) user_guess.py** => strike와 ball 개수를 띄어쓰기로 입력
 
 ![image](https://user-images.githubusercontent.com/112623443/235576497-42d5415c-cd9d-4751-80ab-3104a31070d1.png)
